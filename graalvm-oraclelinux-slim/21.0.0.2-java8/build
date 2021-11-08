@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t graalvm-oraclelinux-slim:21.0.0.2-java8 -f 21.0.0.2-java8/Dockerfile .
+
