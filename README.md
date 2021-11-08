@@ -12,5 +12,5 @@ cd graalvm-oraclelinux-slim
 ```
 
 ```shell script
-./build
+./build.sh
 ```
