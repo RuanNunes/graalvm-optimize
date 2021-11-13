@@ -1,6 +1,13 @@
 FROM ghcr.io/graalvm/graalvm-ce:java11-21.3 AS build-aot
 
-RUN ln -s /opt/graalvm-ce-java11-21.3.0 /opt/graalvm 
+RUN ln -s /opt/graalvm-ce-java11-21.3.0 /opt/graalvm \
+    && rm -rf /opt/graalvm/lib/polyglot/ \
+    && rm -rf /opt/graalvm/lib/visualvm/ \
+    && rm -rf /opt/graalvm/jmods \
+    && rm -rf /opt/graalvm/languages/js/  \
+    && rm -rf /opt//graalvm/languages/llvm \
+    && rm -rf /opt//graalvm/languages/nfi \
+    && rm -rf /opt//graalvm/tools
 
 
 
