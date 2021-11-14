@@ -1,8 +1,2 @@
 #!/bin/bash
-
 docker build -t ruannunes/graalvm-ubi8:21.3-java11 -f 21.3-java11/Dockerfile .
-
-docker push ruannunes/graalvm-ubi8:21.3-java11
-
-
-
