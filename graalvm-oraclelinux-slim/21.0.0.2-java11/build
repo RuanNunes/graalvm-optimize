@@ -1,4 +1,3 @@
 #!/bin/bash
 
-docker build -t graalvm-oraclelinux-slim:21.0.0.2-java11 -f 21.0.0.2-java11/Dockerfile .
-
+docker build -t ruannunes/graalvm-oraclelinux-slim:21.0.0.2-java11 -f 21.0.0.2-java11/Dockerfile .

@@ -4,3 +4,4 @@ docker build -t ruannunes/graalvm-oraclelinux-slim:21.3-java11 -f 21.3-java11/Do
 
 
 
+

@@ -8,7 +8,7 @@ RUN ln -s /opt/graalvm-ce-java11-21.3.0 /opt/graalvm \
     && rm -rf /opt//graalvm/languages/nfi \
     && rm -rf /opt//graalvm/tools
 
-FROM ruannunes/graalvm-oraclelinux-slim:latest
+FROM ruannunes/ubi8:latest
 ENV LANG=en_US.UTF-8
 ENV PATH=/opt/graalvm/bin:${PATH}
 COPY --from=build-aot /opt/graalvm /opt/graalvm
