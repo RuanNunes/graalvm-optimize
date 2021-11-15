@@ -1,8 +1,6 @@
 #!/bin/bash
 docker build -t ruannunes/ubi8:latest .
 
-docker push ruannunes/ubi8:latest
-
 ./21.3-java11/build
 ./21.3-java17/build
 
