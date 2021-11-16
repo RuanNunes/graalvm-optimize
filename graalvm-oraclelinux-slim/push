@@ -1,0 +1,8 @@
+#!/bin/bash
+docker push ruannunes/graalvm-oraclelinux-slim:latest
+docker push ruannunes/graalvm-oraclelinux-slim:21.0.0.2-java8
+docker push ruannunes/graalvm-oraclelinux-slim:21.1.0-java8
+docker push ruannunes/graalvm-oraclelinux-slim:21.0.0.2-java11
+docker push ruannunes/graalvm-oraclelinux-slim:21.1.0-java11
+docker push ruannunes/graalvm-oraclelinux-slim:21.3-java11
+docker push ruannunes/graalvm-oraclelinux-slim:21.3-java17

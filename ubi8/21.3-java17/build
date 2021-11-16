@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t ruannunes/graalvm-ubi8:21.3-java17 -f 21.3-java17/Dockerfile .
+

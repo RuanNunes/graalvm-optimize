@@ -1,6 +1,8 @@
 #!/bin/bash
-docker build -t graalvm-oraclelinux-slim:latest .
+docker build -t ruannunes/graalvm-oraclelinux-slim:latest .
 ./21.0.0.2-java11/build
 ./21.0.0.2-java8/build
 ./21.1.0-java8/build
 ./21.1.0-java11/build
+./21.3-java11/build
+./21.3-java17/build
